@@ -1,0 +1,16 @@
+entry_id,date,amount,approver,gl_code,department,description
+JE001,2024-01-05,1500.00,Rahul Sharma,GL-4201,Finance,Vendor payment - Oracle
+JE002,2024-01-06,2200.00,Priya Mehta,GL-4202,IT,Software licence renewal
+JE003,2024-01-07,980.00,Rahul Sharma,GL-4201,Finance,Office supplies
+JE004,2024-01-08,150000.00,,GL-4205,Finance,Manual journal - end of quarter
+JE005,2024-01-09,1750.00,Suresh Nair,GL-4203,HR,Training reimbursement
+JE006,2024-01-10,1900.00,Priya Mehta,GL-4202,IT,Hardware purchase
+JE007,2024-01-11,,Rahul Sharma,,Finance,
+JE008,2024-01-12,2100.00,Suresh Nair,GL-4203,HR,Consultant fees
+JE009,2024-01-13,1650.00,Priya Mehta,GL-4202,IT,Cloud infrastructure
+JE010,2024-01-14,1800.00,Rahul Sharma,GL-4201,Finance,Vendor payment - SAP
+JE011,2024-01-15,,Suresh Nair,GL-4204,Operations,Equipment maintenance
+JE012,2024-01-16,-45000.00,Admin,GL-9999,Unknown,Reversal entry - unclassified
+JE013,2024-01-17,1700.00,Priya Mehta,GL-4202,IT,Network upgrade
+JE014,2024-01-18,2000.00,Rahul Sharma,GL-4201,Finance,Audit fees
+JE015,2024-01-19,1550.00,Suresh Nair,GL-4203,HR,Payroll adjustment
