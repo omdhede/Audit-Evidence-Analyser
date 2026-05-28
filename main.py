@@ -21,6 +21,8 @@ import pandas as pd
 
 from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 from pydantic import BaseModel
 from typing import Any
 
@@ -49,6 +51,16 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+# ---------------------------------------------------------------------------
+# Frontend — serve index.html at /ui
+# ---------------------------------------------------------------------------
+
+@app.get("/ui", include_in_schema=False)
+def serve_ui():
+    """Serve the React-less SPA frontend."""
+    return FileResponse("frontend/index.html")
 
 
 # ---------------------------------------------------------------------------
